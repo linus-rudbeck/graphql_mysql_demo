@@ -1,5 +1,12 @@
 const graphql = require('graphql')
-const { getUsers, getUserById, getPurchases, getPurchaseById, getPurchasesByUserId, addPurchase, updatePurchase } = require('./mysql')
+const { getUsers, 
+    getUserById, 
+    getPurchases, 
+    getPurchaseById, 
+    getPurchasesByUserId, 
+    addPurchase, 
+    updatePurchase 
+} = require('./mysql')
 const {
     GraphQLString,
     GraphQLInt,
